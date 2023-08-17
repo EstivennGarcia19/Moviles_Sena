@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #292929;
+	font-family: 'Tilt Neon', cursive;
+	color: #fff;
+}
+
+ul li {
+	margin: 25px 40px;
+	list-style: none;
+	padding: 13px 17px;
+	border-radius: 5px;
+	transition: .4s;
+
+}
+ul li:hover{
+	background-color: #1b1b1b;
+}
+
+a {
+	text-decoration: none;	
+	color: #fff;
+	transition: .4s;
+}
+a:hover{
+	color: #ffa31a;
+}
+
+span,
+p strong {
+	color: #ffa31a;
+	font-weight: 400;
+}
+
+
+.container {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+}
+
+#p-section {
+	width: 100%;
+	padding: 30px 0;
+
+}
+
+#p-section .contenido {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.formulario {
+	width: 60%;
+	margin: auto;
+	padding: 40px ;
+	background-color: #1b1b1b;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.formulario h1 {
+	margin-bottom: 20px;
+}
+
+.formulario p {
+	line-height: 25px;
+	margin-bottom: 20px;
+	color: #808080;
+}
+
+.formulario p  a {
+	transition: .4s;
+}
+.formulario p  a:hover{
+	border-bottom: 1px solid #ffa31a;
+}
+
+.cont-form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.cont-form a {
+	color: #ffa31a;
+	font-weight: 400;
+}
+
+.cont-form label {
+	margin-bottom: 12px;
+}
+
+.cont-form input {
+	border-radius: 5px;
+	background-color: #292929;
+	padding: 13px 17px ;
+	border: none;
+	border: 2px solid #333;
+	outline: none;
+	color: #fff;
+	
+}
+
+.cont-form input:focus{
+	border-color:#fff;
+}
+
+output {
+	border-width: 1px;
+}
+
+
+
+.formulario button {
+	padding: 12px 37px;
+	background-color: #292929;
+	color: #808080;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: .4s;
+	margin: 10px 0 30px 0;
+	/* 10 0 30 0 */
+	
+}
+
+.formulario button:hover{
+	background-color: #ffa31a;
+	color: #000;
+}
+
+
+
+.tabla {
+	width: 90%;
+	margin: auto;
+	padding: 40px ;
+	border: 2px solid #333;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #1b1b1b;
+}
+
+.tabla td {
+	padding: 13px 17px;
+	border-bottom: 1px solid #808080;
+}
+
+.tabla tr:nth-child(1) {
+	color: #ffa31a;
+}
+
+
+/* Como el container original tienen un width del 50% y la tabla supera ese procentaje le añai la clase .more-space y le di un width 
+del 80% */
+.more-space {
+	width: 80%;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Inicio</title>
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="container">
+				<ul class="row">
+					<li><a href="#">Inicio</a> </li>
+					<li><a href="extras/registrar.php">Registrar</a> </li>
+					<li><a href="extras/empleados.php">Empleados</a> </li>
+					<li><a href="extras/cerrarSesion.php">Salir</a></li> 
+				</ul>
+			</div>
+		</nav>
+
+	</header>
+
+	<main>
+		<div id="p-section">
+
+			<div class="container">
+				<form action="extras/iniciarSesion.php" method="POST" class="formulario">
+
+					<h1>Iniciar Sesión</h1>
+
+					<p>Accede a tu cuenta</p>
+
+					<p></p>
+
+					<div class="cont-form">
+						<!-- <label for="">Correo Electronico</label> -->
+						<input type="email" name="email" required="true" placeholder="Correo">
+					</div>
+
+					<div class="cont-form">
+						<!-- <label for="">Contraseña</label> -->
+						<input type="password" name="password" required="true" placeholder="Contraseña">
+						
+						
+					</div>	
+					
+
+					<button type="submit" value="Ingresar">Iniciar Sesion</button>
+
+					<div class="cont-form">
+						<p>¿Todavia no tienen una cuenta? <a href="#">Regístrate</a > aqui</p> <br>
+
+						<p> <a href="#">¿Olvidaste el correo o la contraseña ?</a> | <a href="#">Enviar verificación al correo</a></p>
+						
+					</div>
+				
+			</form>
+				
+			</div>
+			
+		</div>
+	</main>
+	
+</body>
+</html>
